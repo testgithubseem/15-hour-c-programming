@@ -1,0 +1,39 @@
+package java4;
+import java.util.Scanner;
+public class AllFibonacciNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		java.util.Scanner sc=new Scanner(System.in);
+		System.out.println("enetr the number");
+		int n=sc.nextInt();
+		System.out.println("enter the a");
+		int a=sc.nextInt();
+		System.out.println("enter the b");
+		int b=sc.nextInt();
+		//System.out.println("enter the c");
+		int c=sc.nextInt();
+		if(n==a||n==b)
+		{
+			System.out.println(n);
+		}
+		else
+		{
+			System.out.println(a+"  "+b);
+		}
+		if(a<n)
+		{
+			c=a+b;
+			a=b;
+			b=c;
+		
+		System.out.println(c);
+		
+		}
+		else
+		{
+			System.out.println("none");
+		}
+	}
+
+}

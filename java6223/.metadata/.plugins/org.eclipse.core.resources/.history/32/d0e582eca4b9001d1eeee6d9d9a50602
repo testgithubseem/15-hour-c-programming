@@ -1,0 +1,18 @@
+package operator;
+
+public class DivideOperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=23;
+		int b=45;
+		int c=b%a;// 1
+		int d=b/a;//22
+		
+		System.out.println(c);
+		System.out.println(d);
+		
+
+	}
+
+}

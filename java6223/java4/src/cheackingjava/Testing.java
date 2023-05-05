@@ -1,0 +1,13 @@
+package cheackingjava;
+
+public class Testing {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method
+		int age=10;
+		System.out.println(age);
+		
+
+	}
+
+}

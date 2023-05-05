@@ -1,0 +1,33 @@
+package oops;
+class Dog
+{
+	String name,breed;
+	public void jump() {
+		
+		
+		System.out.println("my dog "+name+"jumped");
+		}
+		public void description()
+		{
+			System.out.println("my dog name is" +name+ "its breed is" +breed+ "brred");
+		}
+}
+public class Main2Class {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Dog dog1=new Dog();
+		Dog dog2=new Dog();
+		dog1.name="browny";
+		dog1.breed="huskey";
+				dog2.name="mr.mulchand";
+				dog2.breed="poodle";
+				dog1.jump();
+				dog1.description();
+				dog2.jump();
+				dog2.description();
+		
+
+	}
+
+}

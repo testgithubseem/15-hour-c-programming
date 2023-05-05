@@ -1,0 +1,16 @@
+package operators;
+
+public class ArithmeticOperator {
+	public static void main(String args[])
+	{
+	int  x=23;
+	int y=45;
+	//int z=x*x+y*y+2*x*y;
+	//double z=(double)y /(double)x;
+	int z= ++y;
+	System.out.println(z+"   "+y);
+
+	}
+
+}
+

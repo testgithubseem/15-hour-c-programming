@@ -1,0 +1,18 @@
+package methods;
+
+public class SumMethods {
+
+	public static void main(String[] args) {
+		int c=10;
+		int d=20;
+		sum(c,d);
+		System.out.println(c+"  "+d);
+	}
+		static int sum(int a,int b)
+		{
+			return a+b;
+		}
+
+	}
+
+

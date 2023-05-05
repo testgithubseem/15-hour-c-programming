@@ -1,0 +1,19 @@
+package typecasting;
+
+public class ManualTypeCasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		long a=10;
+		double b =(int)a;
+		System.out.println(a);
+		System.out.println(b);
+		
+		
+
+	}
+
+}
+
+
+

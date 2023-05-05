@@ -1,0 +1,22 @@
+package java4;
+
+public class LargestOfThreeNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n1=10,n2=3,n3=5;
+		if(n1>n2&&n2>n3) {
+			System.out.println("print n1");
+		}
+		else if(n2>n3&&n2>n1)
+		{
+			System.out.println("print n2");
+		}
+		else
+		{
+			System.out.println("print n3");
+		}
+
+	}
+
+}
